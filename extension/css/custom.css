@@ -1,0 +1,18 @@
+body div.container {
+  min-width: 500px;
+  min-height: 400px;
+}
+
+body div.container img.loading {
+  display: block;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+html {
+  font-size: 13px;
+} 

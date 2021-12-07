@@ -1,0 +1,24 @@
+{
+  "name": "TLDR",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Google Chrome Extension for Text Summarizer",
+  "author": "Kevin Chuang (github.com/k-chuang)",
+  "homepage_url": "http://k-chuang@github.io",
+  "icons": {
+    "16": "icons/tldr-1.png",
+    "48": "icons/tldr-4.png",
+    "128": "icons/tldr-5.png"
+  },
+  "default_locale": "en",
+  "options_page": "src/options/index.html",
+  "browser_action": {
+    "default_icon": "icons/tldr-5.png",
+    "default_title": "Anchor",
+    "default_popup": "src/browser_action/browser_action.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
